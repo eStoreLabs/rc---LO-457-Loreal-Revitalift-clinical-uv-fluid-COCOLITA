@@ -1,0 +1,1861 @@
+#es-loreal.es-loreal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 998px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #1d1d1b;
+  background: #fff;
+}
+#es-loreal.es-loreal * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#es-loreal.es-loreal h2,
+#es-loreal.es-loreal h3,
+#es-loreal.es-loreal h4,
+#es-loreal.es-loreal h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d1b;
+}
+#es-loreal.es-loreal .es-bolded {
+font-weight: 700;
+}
+#es-loreal.es-loreal .es-kv {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #ededee;
+}
+#es-loreal.es-loreal .es-kv__logo {
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 50%;
+}
+#es-loreal.es-loreal .es-kv__logo-2 {
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 15px 15px;
+  max-width: 80%;
+}
+#es-loreal.es-loreal .es-kv__title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-kv__title span {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ea6232), to(#feeb29));
+  background-image: -webkit-linear-gradient(left, #ea6232, #feeb29);
+  background-image: linear-gradient(90deg, #ea6232, #feeb29);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  -webkit-animation: pulse 2s ease 0s infinite normal forwards;
+          animation: pulse 2s ease 0s infinite normal forwards;
+}
+#es-loreal.es-loreal .es-kv__badge {
+  position: relative;
+  margin: 30px auto 0;
+  max-width: 80%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-animation: fade 10s linear infinite;
+          animation: fade 10s linear infinite;
+}
+#es-loreal.es-loreal .es-kv__badge:hover {
+  -webkit-transform: translateX(-60px);
+      -ms-transform: translateX(-60px);
+          transform: translateX(-60px);
+}
+#es-loreal.es-loreal .es-kv__photo--desktop {
+  display: none;
+}
+#es-loreal.es-loreal .es-kv__photo--mobile {
+  display: block;
+}
+#es-loreal.es-loreal .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-routine {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(80%, #fac5a0), to(#ef7938));
+  background-image: -webkit-linear-gradient(bottom, #fff, #fac5a0 80%, #ef7938 100%);
+  background-image: linear-gradient(0deg, #fff, #fac5a0 80%, #ef7938 100%);
+}
+#es-loreal.es-loreal .es-routine__molecules {
+  display: none;
+  -webkit-animation: fade 10s linear infinite;
+          animation: fade 10s linear infinite;
+}
+#es-loreal.es-loreal .es-routine__molecules-2 {
+  display: none;
+  -webkit-animation: fade 10s linear infinite;
+          animation: fade 10s linear infinite;
+}
+#es-loreal.es-loreal .es-routine__wrapper {
+  position: relative;
+}
+#es-loreal.es-loreal .es-routine__desktop {
+  display: none;
+}
+#es-loreal.es-loreal .es-routine__mobile {
+  display: block;
+}
+#es-loreal.es-loreal .es-routine__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-routine__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  padding: 0 20px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+#es-loreal.es-loreal .es-routine__subtitle span {
+  color: #e42423;
+}
+#es-loreal.es-loreal .es-routine__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+#es-loreal.es-loreal .es-routine__line {
+  display: none;
+  position: absolute;
+  top: 55px;
+}
+#es-loreal.es-loreal .es-routine__line--right {
+  left: -115px;
+}
+#es-loreal.es-loreal .es-routine__step {
+  position: relative;
+  font-size: 20px;
+}
+#es-loreal.es-loreal .es-routine__step--wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+#es-loreal.es-loreal .es-routine__step--title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  color: #f75800;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-routine__step--desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-routine__step--subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-routine__ba {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(34%, transparent), color-stop(34%, #ff7700), color-stop(66%, #ff7700), color-stop(66%, transparent), to(transparent));
+  background: -webkit-linear-gradient(bottom, transparent 34%, #ff7700 34%, #ff7700 66%, transparent 66%, transparent 100%);
+  background: linear-gradient(0deg, transparent 34%, #ff7700 34%, #ff7700 66%, transparent 66%, transparent 100%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#es-loreal.es-loreal .es-routine__ba--single {
+  position: relative;
+}
+#es-loreal.es-loreal .es-routine__ba--desc {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  position: absolute;
+  bottom: 30px;
+}
+#es-loreal.es-loreal .es-routine__ba--desc sup {
+  font-size: 10px;
+}
+#es-loreal.es-loreal .es-routine__ba--single {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-routine__ba--single:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#es-loreal.es-loreal .es-routine__ba--text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  gap: 10px;
+}
+#es-loreal.es-loreal .es-routine__ba--number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-routine__ba--content {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#es-loreal.es-loreal .es-routine__ba--content sup {
+  font-size: 10px;
+}
+#es-loreal.es-loreal .es-routine__title-bottom {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-routine__title-bottom span {
+  color: #ff7700;
+}
+#es-loreal.es-loreal .es-routine__title-bottom sup {
+  font-size: 15px;
+}
+#es-loreal.es-loreal .es-results {
+  padding-bottom: 40px;
+}
+#es-loreal.es-loreal .es-results__molecules {
+  display: none;
+  -webkit-animation: fade 10s linear infinite;
+          animation: fade 10s linear infinite;
+}
+#es-loreal.es-loreal .es-results__headline {
+  width: 100%;
+  background-color: #ff7700;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-results__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #000;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-results__desc--wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#es-loreal.es-loreal .es-results__desc--text {
+  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  gap: 10px;
+}
+#es-loreal.es-loreal .es-results__desc--text:hover .es-results__desc--number {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+#es-loreal.es-loreal .es-results__desc--number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 0 0 20px;
+  color: #fea245;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-results__desc--content {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0 20px 0 0;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+#es-loreal.es-loreal .es-results__desc--content sup {
+  font-size: 10px;
+}
+#es-loreal.es-loreal .es-features__wrapper {
+  background-color: #ff8c01;
+  padding: 20px;
+}
+#es-loreal.es-loreal .es-features__title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-features__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+#es-loreal.es-loreal .es-features__point {
+  width: 40px;
+}
+#es-loreal.es-loreal .es-features__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+#es-loreal.es-loreal .es-features__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-features__img--mobile {
+  display: block;
+}
+#es-loreal.es-loreal .es-features__img--desktop {
+  display: none;
+}
+#es-loreal.es-loreal .es-ingr__wrapper {
+  margin: 0 auto;
+  padding: 20px;
+}
+#es-loreal.es-loreal .es-ingr__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  padding: 20px 20px 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-ingr__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 18px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+#es-loreal.es-loreal .es-ingr__headline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#es-loreal.es-loreal .es-ingr__bracket {
+  height: 32px;
+}
+#es-loreal.es-loreal .es-ingr__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#es-loreal.es-loreal .es-ingr__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-benefits {
+  margin-top: -100px;
+  background-color: #f75800;
+}
+#es-loreal.es-loreal .es-benefits__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 40px 20px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-benefits__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 10px 20px 40px;
+  gap: 45px 15px;
+}
+#es-loreal.es-loreal .es-benefits__single {
+  width: 230px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-benefits__single:hover .es-benefits__number {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+#es-loreal.es-loreal .es-benefits__number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 0.5;
+  opacity: 0.5;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-benefits__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+#es-loreal.es-loreal .es-benefits__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+#es-loreal.es-loreal .es-formula {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#ffbd68));
+  background-image: -webkit-linear-gradient(bottom, #fff, #ffbd68);
+  background-image: linear-gradient(0deg, #fff, #ffbd68);
+}
+#es-loreal.es-loreal .es-formula__content {
+  margin: 0 auto;
+  padding: 10px;
+}
+#es-loreal.es-loreal .es-formula__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 15px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-formula__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+#es-loreal.es-loreal .es-formula__wrapper {
+  padding: 5px 15px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+#es-loreal.es-loreal .es-formula__item {
+  width: 120px;
+  font-weight: 500;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-formula__item:hover .es-formula__icon {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+#es-loreal.es-loreal .es-formula__icon {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-formula__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-formula__logo {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+#es-loreal.es-loreal .es-formula__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin: 0;
+  max-height: 500px;
+}
+#es-loreal.es-loreal .es-results-2__molecules {
+  display: none !important;
+  height: 370px;
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  z-index: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-results-2__molecules:hover {
+  -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+          transform: translateY(20px);
+}
+#es-loreal.es-loreal .es-results-2__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+     -moz-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#es-loreal.es-loreal .es-results-2__content {
+  width: 100%;
+}
+#es-loreal.es-loreal .es-results-2__img {
+  display: none;
+}
+#es-loreal.es-loreal .es-results-2__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 20px 15px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-results-2__desc--wrapper {
+  padding: 20px 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#es-loreal.es-loreal .es-results-2__desc--text {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  gap: 10px;
+}
+#es-loreal.es-loreal .es-results-2__desc--number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0 0 0 20px;
+  color: #ff7700;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-results-2__desc--content {
+  width: 240px;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0 20px 0 0;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+}
+#es-loreal.es-loreal .es-results-2__desc--content sup {
+  font-size: 10px;
+}
+#es-loreal.es-loreal .es-slider {
+  background-color: #fea245;
+  margin: 0 0 0;
+  padding-bottom: 64px;
+}
+#es-loreal.es-loreal .es-slider__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 0.1;
+  padding: 60px 16px 0 40px;
+}
+#es-loreal.es-loreal .es-slider__wrapper {
+  padding: 56px 16px 0 16px;
+}
+#es-loreal.es-loreal .es-slider__content {
+  max-width: 650px;
+  padding: 16px 24px;
+  background: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 8px 16px 40px rgba(0, 0, 0, 0.1);
+}
+#es-loreal.es-loreal .es-slider__persona {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+#es-loreal.es-loreal .es-slider__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-slider__imgMoved {
+  position: relative;
+}
+#es-loreal.es-loreal .es-slider__podpis {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 18px;
+}
+#es-loreal.es-loreal .es-slider__photo {
+  margin-bottom: 16px;
+}
+#es-loreal.es-loreal .es-slider__content {
+  position: relative;
+}
+#es-loreal.es-loreal .es-slider__slide {
+  padding-left: 32px;
+  padding-top: 15px;
+  position: relative;
+}
+#es-loreal.es-loreal .es-slider__number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 145px;
+  font-weight: 700;
+  color: #fea245;
+  opacity: 0.34;
+  line-height: 1;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-prev:after,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next:after {
+  display: none;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-next:after,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev:after {
+  display: none;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-next,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+  right: 31%;
+  top: auto !important;
+  bottom: -44px !important;
+}
+#es-loreal.es-loreal .es-slider .swiper-button-prev,
+#es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+  left: 31%;
+  top: auto !important;
+  bottom: -44px !important;
+}
+#es-loreal.es-loreal .es-slider .swiper-container-horizontal > .swiper-pagination-bullets,
+#es-loreal.es-loreal .es-slider .swiper-pagination-custom,
+#es-loreal.es-loreal .es-slider .swiper-pagination-fraction {
+  bottom: 0px;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #1d1d1b;
+  opacity: 1;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 6px;
+}
+#es-loreal.es-loreal .es-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #1d1d1b;
+}
+#es-loreal.es-loreal .es-use {
+  background: url("../images/bg-use.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+#es-loreal.es-loreal .es-use__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 90px 16px 40px 40px;
+}
+#es-loreal.es-loreal .es-use__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 10px 20px 40px;
+  gap: 45px 20px;
+}
+#es-loreal.es-loreal .es-use__single {
+  width: 230px;
+  text-align: center;
+}
+#es-loreal.es-loreal .es-use__single:hover .es-use__photo {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+#es-loreal.es-loreal .es-use__photo {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#es-loreal.es-loreal .es-use__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 300;
+}
+#es-loreal.es-loreal .es-cross {
+  padding: 0 15px;
+}
+#es-loreal.es-loreal .es-cross__bg-desktop {
+  display: none;
+}
+#es-loreal.es-loreal .es-cross__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+#es-loreal.es-loreal .es-cross__title span {
+  color: #ff7700;
+}
+#es-loreal.es-loreal .es-cross__left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+#es-loreal.es-loreal .es-cross__right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+  gap: 20px;
+}
+#es-loreal.es-loreal .es-cross__right:hover .es-cross__link {
+  background: black;
+}
+#es-loreal.es-loreal .es-cross__content {
+  max-width: 270px;
+  padding: 20px 15px;
+}
+#es-loreal.es-loreal .es-cross__arrow {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-loreal.es-loreal .es-cross__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#es-loreal.es-loreal .es-cross__subtitle span {
+  color: #ff7700;
+}
+#es-loreal.es-loreal .es-cross__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 10px 0;
+  font-size: 13px;
+}
+#es-loreal.es-loreal .es-cross__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+}
+#es-loreal.es-loreal .es-cross__packshot {
+  width: 50%;
+}
+#es-loreal.es-loreal .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  display: block;
+}
+#es-loreal.es-loreal .es-cross__link {
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 10px;
+  border-radius: 1px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background: #ff7700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+#es-loreal.es-loreal .es-footer {
+  background: #f1f3f2;
+}
+#es-loreal.es-loreal .es-footer__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 20px 15px 30px;
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (min-width: 500px) {
+  #es-loreal.es-loreal .es-results__desc--number {
+    font-weight: 700;
+  }
+  #es-loreal.es-loreal .es-features__img--mobile {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-features__img--desktop {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-formula__item {
+    width: 165px;
+  }
+  #es-loreal.es-loreal .es-formula__desc {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-loreal.es-loreal .es-kv__photo--desktop {
+    display: block;
+  }
+  #es-loreal.es-loreal .es-kv__photo--mobile {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-kv__logo {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    max-width: 220px;
+  }
+  #es-loreal.es-loreal .es-kv__logo-2 {
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    max-width: 220px;
+  }
+  #es-loreal.es-loreal .es-kv__title {
+    position: absolute;
+    top: 32%;
+    right: 0;
+    width: 340px;
+    text-align: left;
+    font-size: 38px;
+  }
+  #es-loreal.es-loreal .es-kv__badge {
+    position: absolute;
+    top: 50%;
+    right: -8%;
+    max-width: 230px;
+  }
+  #es-loreal.es-loreal .es-routine {
+    height: 1045px;
+  }
+  #es-loreal.es-loreal .es-routine__molecules {
+    width: 170px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 230px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #es-loreal.es-loreal .es-routine__molecules:hover {
+    -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  #es-loreal.es-loreal .es-routine__molecules-2 {
+    display: block;
+    width: 170px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 750px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #es-loreal.es-loreal .es-routine__molecules-2:hover {
+    -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  #es-loreal.es-loreal .es-routine__line {
+    display: block;
+    width: 250px;
+  }
+  #es-loreal.es-loreal .es-routine__img {
+    padding: 10px;
+  }
+  #es-loreal.es-loreal .es-routine__mobile {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-routine__desktop {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    top: -28%;
+    left: 35%;
+  }
+  #es-loreal.es-loreal .es-routine__title {
+    text-align: left;
+  }
+  #es-loreal.es-loreal .es-routine__subtitle {
+    text-align: left;
+  }
+  #es-loreal.es-loreal .es-routine__step {
+    z-index: 4;
+    position: absolute;
+    top: 100px;
+  }
+  #es-loreal.es-loreal .es-routine__step--1 {
+    left: 27%;
+  }
+  #es-loreal.es-loreal .es-routine__step--2 {
+    left: 83%;
+  }
+  #es-loreal.es-loreal .es-routine__ba {
+    z-index: 3;
+    width: 100%;
+    position: absolute;
+    top: 440px;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+       -moz-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    padding-left: 20px;
+  }
+  #es-loreal.es-loreal .es-routine__ba--single {
+    width: 220px;
+  }
+  #es-loreal.es-loreal .es-routine__ba--text {
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 513px;
+    left: 60%;
+  }
+  #es-loreal.es-loreal .es-routine__ba--desc {
+    bottom: 20px;
+  }
+  #es-loreal.es-loreal .es-routine__title-bottom {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    top: 890px;
+  }
+  #es-loreal.es-loreal .es-results__desc--wrapper {
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+  #es-loreal.es-loreal .es-results__desc--text {
+    width: 33%;
+  }
+  #es-loreal.es-loreal .es-features {
+    position: relative;
+  }
+  #es-loreal.es-loreal .es-features__wrapper {
+    background-color: transparent;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #es-loreal.es-loreal .es-ingr {
+    position: relative;
+    top: -100px;
+  }
+  #es-loreal.es-loreal .es-ingr__img {
+    width: 450px;
+    position: absolute;
+    z-index: 5;
+    left: 45%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  #es-loreal.es-loreal .es-ingr__wrapper {
+    min-height: 450px;
+    position: relative;
+    width: 100%;
+  }
+  #es-loreal.es-loreal .es-ingr__title {
+    padding-left: 20px;
+  }
+  #es-loreal.es-loreal .es-ingr__item {
+    text-align: left;
+  }
+  #es-loreal.es-loreal .es-ingr__headline {
+    position: absolute;
+    max-width: 250px;
+  }
+  #es-loreal.es-loreal .es-ingr__headline--1 {
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+       -moz-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    top: 18%;
+    right: 10%;
+  }
+  #es-loreal.es-loreal .es-ingr__headline--2 {
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+       -moz-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    top: 50%;
+    left: 5%;
+  }
+  #es-loreal.es-loreal .es-ingr__text {
+    position: absolute;
+    max-width: 250px;
+  }
+  #es-loreal.es-loreal .es-ingr__text--1 {
+    text-align: right;
+    top: 28%;
+    right: 10%;
+  }
+  #es-loreal.es-loreal .es-ingr__text--2 {
+    text-align: left;
+    top: 60%;
+    left: 5%;
+  }
+  #es-loreal.es-loreal .es-formula {
+    margin-top: -180px;
+    position: relative;
+    min-height: 680px;
+  }
+  #es-loreal.es-loreal .es-formula__content {
+    width: 49%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #es-loreal.es-loreal .es-results-2 {
+    position: relative;
+  }
+  #es-loreal.es-loreal .es-results-2__molecules {
+    display: block !important;
+  }
+  #es-loreal.es-loreal .es-results-2__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+       -moz-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  #es-loreal.es-loreal .es-results-2__content {
+    width: 70%;
+  }
+  #es-loreal.es-loreal .es-results-2__img {
+    display: block;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+  }
+  #es-loreal.es-loreal .es-results-2__desc--number {
+    font-size: 70px;
+  }
+  #es-loreal.es-loreal .es-results-2__desc--content {
+    font-size: 16px;
+  }
+  #es-loreal.es-loreal .es-slider {
+    background-color: #fea245;
+  }
+  #es-loreal.es-loreal .es-slider__title {
+    text-align: left;
+    padding: 60px 16px 0 150px;
+  }
+  #es-loreal.es-loreal .es-slider__content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-flow: row-reverse;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: reverse;
+        -ms-flex-flow: row-reverse;
+            flex-flow: row-reverse;
+    padding: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__persona {
+    min-width: 136px;
+    margin-left: 32px;
+  }
+  #es-loreal.es-loreal .es-slider__imgMoved {
+    position: absolute;
+    top: -40px;
+    right: -20px;
+  }
+  #es-loreal.es-loreal .es-slider__job {
+    margin-bottom: 0;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-next,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-prev {
+    right: 37%;
+  }
+  #es-loreal.es-loreal .es-slider .swiper-button-prev,
+  #es-loreal.es-loreal .es-slider .swiper-container-rtl .swiper-button-next {
+    left: 37%;
+  }
+  #es-loreal.es-loreal .es-cross {
+    position: relative;
+    padding: 0;
+  }
+  #es-loreal.es-loreal .es-cross__bg-desktop {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  #es-loreal.es-loreal .es-cross__img {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-cross__content {
+    max-width: 290px;
+  }
+  #es-loreal.es-loreal .es-cross__subtitle {
+    font-size: 12px;
+  }
+  #es-loreal.es-loreal .es-cross__desc {
+    font-size: 12px;
+  }
+  #es-loreal.es-loreal .es-cross__title {
+    font-size: 22px;
+    position: absolute;
+    top: 5%;
+    left: 20px;
+  }
+  #es-loreal.es-loreal .es-cross__left {
+    position: absolute;
+    top: 25%;
+  }
+  #es-loreal.es-loreal .es-cross__right {
+    position: absolute;
+    top: 25%;
+    right: 0;
+  }
+}
+@media screen and (min-width: 860px) {
+  #es-loreal.es-loreal .es-formula {
+    min-height: 590px;
+  }
+  #es-loreal.es-loreal .es-formula__content {
+    width: 52%;
+    right: 0;
+  }
+}
+@media screen and (min-width: 998px) {
+  #es-loreal.es-loreal .es-kv__title {
+    top: 29%;
+    width: 420px;
+    font-size: 48px;
+  }
+  #es-loreal.es-loreal .es-kv__badge {
+    max-width: 280px;
+  }
+  #es-loreal.es-loreal .es-slider {
+    background: url("../images/slider.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: cover;
+  }
+  #es-loreal.es-loreal .es-steps__desc {
+    height: 80px;
+  }
+  #es-loreal.es-loreal .es-steps__number {
+    font-size: 60px;
+    top: 50%;
+    left: 5%;
+  }
+  #es-loreal.es-loreal .es-steps__smallTitle {
+    font-size: 12px;
+    left: 10%;
+    top: 32%;
+  }
+  #es-loreal.es-loreal .es-steps__text {
+    font-size: 12px;
+    left: 10%;
+    top: 58%;
+  }
+  #es-loreal.es-loreal .es-routine__ba {
+    padding-left: 100px;
+  }
+  #es-loreal.es-loreal .es-routine__ba--text {
+    left: 55%;
+  }
+  #es-loreal.es-loreal .es-routine__step--2 {
+    left: 74%;
+  }
+  #es-loreal.es-loreal .es-features__point {
+    width: 60px;
+  }
+  #es-loreal.es-loreal .es-formula {
+    min-height: 500px;
+  }
+  #es-loreal.es-loreal .es-formula__content {
+    width: 60%;
+  }
+  #es-loreal.es-loreal .es-cross__content {
+    max-width: 360px;
+  }
+  #es-loreal.es-loreal .es-cross__subtitle {
+    font-size: 14px;
+  }
+  #es-loreal.es-loreal .es-cross__desc {
+    font-size: 14px;
+  }
+  #es-loreal.es-loreal .es-cross__title {
+    font-size: 28px;
+    position: absolute;
+    top: 5%;
+    left: 20px;
+  }
+  #es-loreal.es-loreal .es-cross__left {
+    position: absolute;
+    top: 30%;
+  }
+  #es-loreal.es-loreal .es-cross__right {
+    position: absolute;
+    top: 30%;
+    right: 0;
+  }
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    opacity: 0.7;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  55% {
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  20% {
+    opacity: 0.7;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  55% {
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-32px);
+            transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideright {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@-webkit-keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slideleft {
+  from {
+    opacity: 0.3;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zYXNzL3N0eWxlLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU0E7O0VBRUUsU0FBQTtFQUNBLFVBQUE7QUNSRjs7QUQwQkE7RUFDRSxxQ0E3QlE7RUE4QlIsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7RUFDQSxVQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQW5DTTtFQW9DTixnQkFBQTtBQ3ZCRjtBRHlCRTtFQUNFLDhCQUFBO0tBQUEsMkJBQUE7VUFBQSxzQkFBQTtBQ3ZCSjtBRDBCRTs7OztFQUlFLHFDQWhETTtFQWlETixjQS9DSTtBQ3VCUjtBRDBCRTtFQUNFLFNBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtBQ3hCSjtBRHlCSTtFQUNFLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0FDdkJOO0FEeUJJO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0FDdkJOO0FEeUJJO0VBQ0Usa0JBQUE7RUF2REosU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBb0RJLGFBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDbEJOO0FEb0JNO0VBRUUscUJBQUE7RUFDQSwyRkFBQTtFQUFBLGlFQUFBO0VBQUEsMERBQUE7RUFDQSw2QkFBQTtVQUFBLHFCQUFBO0VBQ0Esa0JBQUE7RUFDQSw0REFBQTtVQUFBLG9EQUFBO0FDbkJSO0FEc0JJO0VBQ0Usa0JBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSw0QkFBQTtFQUFBLG9CQUFBO0VBS0EsMkNBQUE7VUFBQSxtQ0FBQTtBQ3hCTjtBRG9CTTtFQUNFLG9DQUFBO01BQUEsZ0NBQUE7VUFBQSw0QkFBQTtBQ2xCUjtBRHdCTTtFQUNFLGFBQUE7QUN0QlI7QUR3Qk07RUFDRSxjQUFBO0FDdEJSO0FEeUJJO0VBbEZGLGVBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtBQzRERjtBRHlCRTtFQUNFLG9IQUFBO0VBQUEsa0ZBQUE7RUFBQSx3RUFBQTtBQ3ZCSjtBRHdCSTtFQUNFLGFBQUE7RUFDQSwyQ0FBQTtVQUFBLG1DQUFBO0FDdEJOO0FEd0JJO0VBQ0UsYUFBQTtFQUNBLDJDQUFBO1VBQUEsbUNBQUE7QUN0Qk47QUR3Qkk7RUFDRSxrQkFBQTtBQ3RCTjtBRHdCSTtFQUNFLGFBQUE7QUN0Qk47QUR3Qkk7RUFDRSxjQUFBO0FDdEJOO0FEd0JJO0VBbkhGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQWdISSxlQUFBO0VBQ0EsYUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQ2pCTjtBRG1CSTtFQTNIRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUF3SEksZUFBQTtFQUNBLG9CQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQ1pOO0FEYU07RUFDRSxjQUFBO0FDWFI7QURjSTtFQTlIRixlQUFBO0VBQ0EsY0FBQTtFQUNBLGNBQUE7RUE4SEksYUFBQTtBQ1ZOO0FEWUk7RUFDRSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxTQUFBO0FDVk47QURjTTtFQUNFLFlBQUE7QUNaUjtBRGVJO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0FDYk47QURjTTtFQUNFLGtCQUFBO0VBQ0Esb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0EscUNBQUE7TUFBQSx5QkFBQTtVQUFBLDZCQUFBO0FDWlI7QURjTTtFQS9KSixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUE0Sk0seUJBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7QUNQUjtBRFNNO0VBcktKLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQWtLTSx5QkFBQTtBQ0ZSO0FESU07RUF6S0osU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBc0tNLGlCQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtBQ0dSO0FEQUk7RUFDRSw0TEFBQTtFQUFBLHlIQUFBO0VBQUEsK0dBQUE7RUFDQSxvQkFBQTtFQUFBLHFCQUFBO0VBQUEsaUJBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSx5QkFBQTtNQUFBLHFCQUFBO1VBQUEsaUJBQUE7RUFDQSx3QkFBQTtFQUFBLCtCQUFBO0tBQUEscUJBQUE7TUFBQSxxQkFBQTtVQUFBLHVCQUFBO0FDRU47QURETTtFQUNFLGtCQUFBO0FDR1I7QURETTtFQUNFLFdBQUE7RUF6TE4sU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBc0xNLGtCQUFBO0VBQ0EseUJBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0FDUVI7QURQUTtFQUNFLGVBQUE7QUNTVjtBRE5NO0VBQ0UsNEJBQUE7RUFBQSxvQkFBQTtBQ1FSO0FEUFE7RUFDRSw2QkFBQTtNQUFBLHlCQUFBO1VBQUEscUJBQUE7QUNTVjtBRE5NO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0EseUJBQUE7RUFBQSwyQkFBQTtLQUFBLHNCQUFBO01BQUEsc0JBQUE7VUFBQSxtQkFBQTtFQUNBLHdCQUFBO0VBQUEsK0JBQUE7S0FBQSxxQkFBQTtNQUFBLHFCQUFBO1VBQUEsdUJBQUE7RUFDQSxZQUFBO0VBQ0EsU0FBQTtBQ1FSO0FETk07RUFwTkosU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBaU5NLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EseUJBQUE7QUNhUjtBRFhNO0VBM05KLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQXdOTSxlQUFBO0VBQ0EseUJBQUE7RUFDQSxxQkFBQTtBQ2tCUjtBRGpCUTtFQUNFLGVBQUE7QUNtQlY7QURmSTtFQXJPRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUFrT0ksZUFBQTtFQUNBLGFBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUNzQk47QURyQk07RUFDRSxjQXRQSztBQzZRYjtBRHJCTTtFQUNFLGVBQUE7QUN1QlI7QURqQkU7RUFDRSxvQkFBQTtBQ21CSjtBRGxCSTtFQUNFLGFBQUE7RUFDQSwyQ0FBQTtVQUFBLG1DQUFBO0FDb0JOO0FEbEJJO0VBQ0UsV0FBQTtFQUNBLHlCQUFBO0VBOVBKLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQTJQSSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGFBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUN5Qk47QUR2Qkk7RUF2UUYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBb1FJLFdBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUM4Qk47QUQxQk07RUFDRSxvQkFBQTtFQUFBLHFCQUFBO0VBQUEsaUJBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSx1QkFBQTtNQUFBLG1CQUFBO1VBQUEsZUFBQTtFQUNBLHdCQUFBO0VBQUEsK0JBQUE7S0FBQSxxQkFBQTtNQUFBLHFCQUFBO1VBQUEsdUJBQUE7QUM0QlI7QUQxQk07RUFDRSxVQUFBO0VBQ0Esb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0EseUJBQUE7RUFBQSwyQkFBQTtLQUFBLHNCQUFBO01BQUEsc0JBQUE7VUFBQSxtQkFBQTtFQUNBLHdCQUFBO0VBQUEsK0JBQUE7S0FBQSxxQkFBQTtNQUFBLHFCQUFBO1VBQUEsdUJBQUE7RUFDQSxZQUFBO0VBQ0EsU0FBQTtBQzRCUjtBRHpCVTtFQUNFLG9DQUFBO01BQUEsZ0NBQUE7VUFBQSw0QkFBQTtBQzJCWjtBRHZCTTtFQXJTSixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUFrU00sNEJBQUE7RUFBQSxvQkFBQTtFQUNBLG1CQUFBO0VBQ0EsY0FBQTtFQUNBLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EseUJBQUE7QUM4QlI7QUQzQk07RUFoVEosU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBNlNNLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHFCQUFBO0FDa0NSO0FEakNRO0VBQ0UsZUFBQTtBQ21DVjtBRDdCSTtFQUNFLHlCQUFBO0VBQ0EsYUFBQTtBQytCTjtBRDdCSTtFQUNFLFdBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0FDK0JOO0FEN0JJO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0EseUJBQUE7RUFBQSwyQkFBQTtLQUFBLHNCQUFBO01BQUEsc0JBQUE7VUFBQSxtQkFBQTtFQUNBLGlCQUFBO0FDK0JOO0FEN0JJO0VBQ0UsV0FBQTtBQytCTjtBRDdCSTtFQWhWRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUE2VUksV0FBQTtFQUNBLHlCQUFBO0VBQ0EsZUFBQTtBQ29DTjtBRGxDSTtFQTdVRixlQUFBO0VBQ0EsY0FBQTtFQUNBLGNBQUE7QUNrWEY7QURyQ007RUFDRSxjQUFBO0FDdUNSO0FEckNNO0VBQ0UsYUFBQTtBQ3VDUjtBRGpDSTtFQUNFLGNBQUE7RUFDQSxhQUFBO0FDbUNOO0FEakNJO0VBdFdGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQW1XSSxlQUFBO0VBQ0EseUJBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7QUN3Q047QUR0Q0k7RUE5V0YsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBMldJLGVBQUE7RUFDQSxhQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FDNkNOO0FEM0NJO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0Esd0JBQUE7RUFBQSwrQkFBQTtLQUFBLHFCQUFBO01BQUEscUJBQUE7VUFBQSx1QkFBQTtFQUNBLHlCQUFBO0VBQUEsMkJBQUE7S0FBQSxzQkFBQTtNQUFBLHNCQUFBO1VBQUEsbUJBQUE7QUM2Q047QUQzQ0k7RUFDRSxZQUFBO0FDNkNOO0FEM0NJO0VBL1hGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQTRYSSxrQkFBQTtFQUNBLG1CQUFBO0FDa0ROO0FEaERJO0VBM1hGLGVBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtFQTJYSSxhQUFBO0VBQ0EsNEJBQUE7RUFBQSxvQkFBQTtBQ29ETjtBRDdDRTtFQUNFLGtCQUFBO0VBQ0EseUJBQUE7QUMrQ0o7QUQ5Q0k7RUFqWkYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBOFlJLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0FDcUROO0FEbkRJO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EscUNBQUE7TUFBQSx5QkFBQTtVQUFBLDZCQUFBO0VBQ0EsdUJBQUE7TUFBQSxtQkFBQTtVQUFBLGVBQUE7RUFDQSx1QkFBQTtFQUNBLGNBQUE7QUNxRE47QURuREk7RUFDRSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSw0QkFBQTtFQUFBLG9CQUFBO0FDcUROO0FEbERRO0VBQ0Usb0NBQUE7TUFBQSxnQ0FBQTtVQUFBLDRCQUFBO0FDb0RWO0FEaERJO0VBM2FGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQXdhSSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtFQUNBLDRCQUFBO0VBQUEsb0JBQUE7QUN1RE47QURyREk7RUFwYkYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBaWJJLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0VBQ0EsV0FBQTtBQzRETjtBRHpESTtFQTViRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUF5YkksZUFBQTtFQUNBLGdCQUFBO0VBQ0EsV0FBQTtBQ2dFTjtBRDVERTtFQUNFLDBGQUFBO0VBQUEsZ0VBQUE7RUFBQSxzREFBQTtBQzhESjtBRDdESTtFQUNFLGNBQUE7RUFDQSxhQUFBO0FDK0ROO0FEN0RJO0VBMWNGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQXVjSSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxvQkFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7QUNvRU47QURsRUk7RUFsZEYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBK2NJLGVBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQ3lFTjtBRHZFSTtFQUNFLHNCQUFBO0VBQ0Esb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxxQkFBQTtVQUFBLGlCQUFBO0VBQ0EscUNBQUE7TUFBQSx5QkFBQTtVQUFBLDZCQUFBO0FDeUVOO0FEdkVJO0VBQ0UsWUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSw0QkFBQTtFQUFBLG9CQUFBO0FDeUVOO0FEdEVRO0VBQ0Usb0NBQUE7TUFBQSxnQ0FBQTtVQUFBLDRCQUFBO0FDd0VWO0FEcEVJO0VBQ0UsNEJBQUE7RUFBQSxvQkFBQTtBQ3NFTjtBRHBFSTtFQTllRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUEyZUksZUFBQTtFQUNBLHlCQUFBO0FDMkVOO0FEekVJO0VBMWVGLGVBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtFQTBlSSxhQUFBO0FDNkVOO0FEM0VJO0VBOWVGLGVBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtFQThlSSxTQUFBO0VBQ0EsaUJBQUE7QUMrRU47QUQxRUk7RUFDRSx3QkFBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLFVBQUE7RUFDQSw0QkFBQTtFQUFBLG9CQUFBO0FDNEVOO0FEM0VNO0VBQ0UsbUNBQUE7TUFBQSwrQkFBQTtVQUFBLDJCQUFBO0FDNkVSO0FEMUVJO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EsdUJBQUE7RUFBQSw4QkFBQTtLQUFBLG9CQUFBO01BQUEsb0JBQUE7VUFBQSxzQkFBQTtFQUNBLHlCQUFBO0VBQUEsMkJBQUE7S0FBQSxzQkFBQTtNQUFBLHNCQUFBO1VBQUEsbUJBQUE7QUM0RU47QUQxRUk7RUFDRSxXQUFBO0FDNEVOO0FEMUVJO0VBQ0UsYUFBQTtBQzRFTjtBRDFFSTtFQXZoQkYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBb2hCSSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EseUJBQUE7QUNpRk47QUQ5RU07RUFDRSxpQkFBQTtFQUVBLG9CQUFBO0VBQUEscUJBQUE7RUFBQSxpQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHVCQUFBO01BQUEsbUJBQUE7VUFBQSxlQUFBO0VBQ0Esd0JBQUE7RUFBQSwrQkFBQTtLQUFBLHFCQUFBO01BQUEscUJBQUE7VUFBQSx1QkFBQTtBQytFUjtBRDdFTTtFQUNFLFdBQUE7RUFDQSxvQkFBQTtFQUFBLHFCQUFBO0VBQUEsaUJBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSx5QkFBQTtNQUFBLHFCQUFBO1VBQUEsaUJBQUE7RUFDQSx5QkFBQTtFQUFBLDJCQUFBO0tBQUEsc0JBQUE7TUFBQSxzQkFBQTtVQUFBLG1CQUFBO0VBQ0Esd0JBQUE7RUFBQSwrQkFBQTtLQUFBLHFCQUFBO01BQUEscUJBQUE7VUFBQSx1QkFBQTtFQUNBLFlBQUE7RUFDQSxTQUFBO0FDK0VSO0FEN0VNO0VBaGpCSixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUE2aUJNLG1CQUFBO0VBQ0EsY0FBQTtFQUNBLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EseUJBQUE7QUNvRlI7QURsRk07RUFDRSxZQUFBO0VBMWpCTixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUF1akJNLG1CQUFBO0VBQ0EsV0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0VBQ0EscUJBQUE7QUN5RlI7QUR4RlE7RUFDRSxlQUFBO0FDMEZWO0FEcEZFO0VBQ0UseUJBQUE7RUFDQSxhQUFBO0VBQ0Esb0JBQUE7QUNzRko7QURyRkk7RUE3a0JGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQTBrQkksa0JBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0FDNEZOO0FEMUZJO0VBQ0UseUJBQUE7QUM0Rk47QUQxRkk7RUFDRSxnQkFBQTtFQUNBLGtCQUFBO0VBRUEsZ0JBQUE7RUFDQSxtQkFBQTtFQUNBLG9EQUFBO1VBQUEsNENBQUE7QUMyRk47QUR6Rkk7RUFDRSxvQkFBQTtFQUFBLHFCQUFBO0VBQUEsaUJBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7RUFDQSw0QkFBQTtFQUFBLDZCQUFBO0VBQUEseUJBQUE7S0FBQSx5QkFBQTtLQUFBLDBCQUFBO01BQUEscUJBQUE7VUFBQSxpQkFBQTtFQUNBLHlCQUFBO0VBQUEsMkJBQUE7S0FBQSxzQkFBQTtNQUFBLHNCQUFBO1VBQUEsbUJBQUE7RUFDQSxxQkFBQTtFQUFBLGlDQUFBO0tBQUEsa0JBQUE7TUFBQSxrQkFBQTtVQUFBLHlCQUFBO0FDMkZOO0FEekZJO0VBN2xCRixlQUFBO0VBQ0EsY0FBQTtFQUNBLGNBQUE7QUN5ckJGO0FEM0ZJO0VBQ0Usa0JBQUE7QUM2Rk47QUQzRkk7RUE1bUJGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQXltQkksa0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNrR047QURoR0k7RUFDRSxtQkFBQTtBQ2tHTjtBRGhHSTtFQUNFLGtCQUFBO0FDa0dOO0FEaEdJO0VBQ0Usa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FDa0dOO0FEaEdJO0VBN25CRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUEwbkJJLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0EsY0FBQTtFQUNBLGFBQUE7RUFDQSxjQUFBO0FDdUdOO0FEckdJOztFQUVFLGFBQUE7QUN1R047QURyR0k7O0VBRUUsYUFBQTtBQ3VHTjtBRHJHSTs7RUFFRSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSx3QkFBQTtBQ3VHTjtBRHJHSTs7RUFFRSxTQUFBO0VBQ0Esb0JBQUE7RUFDQSx3QkFBQTtBQ3VHTjtBRHJHSTs7O0VBR0UsV0FBQTtBQ3VHTjtBRHJHSTtFQUNFLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLFNBQUE7RUFDQSxtQ0FBQTtNQUFBLCtCQUFBO1VBQUEsMkJBQUE7RUFDQSxrQkFBQTtBQ3VHTjtBRHJHSTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0EscUJBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EseUJBQUE7RUFDQSxVQUFBO0FDdUdOO0FEdEdNO0VBQ0UsaUJBQUE7QUN3R1I7QURyR0k7RUFDRSxVQUFBO0VBQ0EsbUJBbHNCRTtBQ3l5QlI7QURuR0U7RUFDRSx1Q0FBQTtFQUNBLDRCQUFBO0VBQ0EsNkJBQUE7QUNxR0o7QURwR0k7RUE5ckJGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQTJyQkksa0JBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSw0QkFBQTtBQzJHTjtBRHpHSTtFQUNFLG9CQUFBO0VBQUEscUJBQUE7RUFBQSxpQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHdCQUFBO0VBQUEsK0JBQUE7S0FBQSxxQkFBQTtNQUFBLHFCQUFBO1VBQUEsdUJBQUE7RUFDQSx1QkFBQTtNQUFBLG1CQUFBO1VBQUEsZUFBQTtFQUNBLHVCQUFBO0VBQ0EsY0FBQTtBQzJHTjtBRHpHSTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtBQzJHTjtBRHpHUTtFQUNFLG9DQUFBO01BQUEsZ0NBQUE7VUFBQSw0QkFBQTtBQzJHVjtBRHZHSTtFQTVzQkYsZUFBQTtFQUNBLGNBQUE7RUFDQSxjQUFBO0VBNHNCSSw0QkFBQTtFQUFBLG9CQUFBO0FDMkdOO0FEekdJO0VBenRCRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUFzdEJJLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDZ0hOO0FENUdFO0VBZUUsZUFBQTtBQ2dHSjtBRDlHSTtFQUNFLGFBQUE7QUNnSE47QUQ5R0k7RUFydUJGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQWt1Qkksa0JBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxvQkFBQTtFQUNBLHlCQUFBO0FDcUhOO0FEcEhNO0VBQ0UsY0F0dkJLO0FDNDJCYjtBRGxISTtFQUNFLG9CQUFBO0VBQUEscUJBQUE7RUFBQSxpQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO01BQUEscUJBQUE7VUFBQSxpQkFBQTtFQUNBLHdCQUFBO0VBQUEsK0JBQUE7S0FBQSxxQkFBQTtNQUFBLHFCQUFBO1VBQUEsdUJBQUE7RUFDQSx5QkFBQTtFQUFBLDJCQUFBO0tBQUEsc0JBQUE7TUFBQSxzQkFBQTtVQUFBLG1CQUFBO0VBQ0EsU0FBQTtBQ29ITjtBRGxISTtFQUNFLG9CQUFBO0VBQUEscUJBQUE7RUFBQSxpQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO01BQUEscUJBQUE7VUFBQSxpQkFBQTtFQUNBLHlCQUFBO0VBQUEsMkJBQUE7S0FBQSxzQkFBQTtNQUFBLHNCQUFBO1VBQUEsbUJBQUE7RUFDQSx3QkFBQTtFQUFBLCtCQUFBO0tBQUEscUJBQUE7TUFBQSxxQkFBQTtVQUFBLHVCQUFBO0VBQ0EsaUJBQUE7RUFFQSxTQUFBO0FDbUhOO0FEakhRO0VBQ0UsaUJBQUE7QUNtSFY7QUQvR0k7RUFDRSxnQkFBQTtFQUNBLGtCQUFBO0FDaUhOO0FEL0dJO0VBandCRixlQUFBO0VBQ0EsY0FBQTtFQUNBLGNBQUE7QUNtM0JGO0FEakhJO0VBN3dCRixTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0VBQ0Esb0JBQUE7RUEwd0JJLGVBQUE7RUFDQSxnQkFBQTtFQUNBLG9CQUFBO0FDd0hOO0FEdkhNO0VBQ0UsY0E1eEJLO0FDcTVCYjtBRHRISTtFQXR4QkYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBbXhCSSxlQUFBO0VBQ0EsZUFBQTtBQzZITjtBRDNISTtFQTN4QkYsU0FBQTtFQUNBLFVBQUE7RUFDQSxvQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLG9CQUFBO0VBd3hCSSxlQUFBO0FDa0lOO0FEaElJO0VBQ0UsVUFBQTtBQ2tJTjtBRGhJSTtFQXp4QkYsZUFBQTtFQUNBLGNBQUE7RUFDQSxjQUFBO0VBeXhCSSxjQUFBO0FDb0lOO0FEbElJO0VBQ0UsZ0JBQUE7RUF2eUJKLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQW95QkksYUFBQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0EsbUJBeHpCTztFQXl6QlAscUJBQUE7RUFDQSx5QkFBQTtFQUNBLGNBQUE7RUFDQSxtQ0FBQTtFQUFBLDJCQUFBO0FDeUlOO0FEcklFO0VBQ0UsbUJBQUE7QUN1SUo7QUR0SUk7RUF6ekJGLFNBQUE7RUFDQSxVQUFBO0VBQ0Esb0JBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7RUFDQSxvQkFBQTtFQXN6QkksdUJBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7QUM2SU47QUR6SUU7RUFHTTtJQUNFLGdCQUFBO0VDeUlSO0VEL0hNO0lBQ0UsYUFBQTtFQ2lJUjtFRC9ITTtJQUNFLGNBQUE7RUNpSVI7RUQ1SEk7SUFDRSxZQUFBO0VDOEhOO0VENUhJO0lBQ0UsZUFBQTtFQzhITjtBQUNGO0FEM0hFO0VBR007SUFDRSxjQUFBO0VDMkhSO0VEekhNO0lBQ0UsYUFBQTtFQzJIUjtFRHhISTtJQUNFLGtCQUFBO0lBQ0EsT0FBQTtJQUNBLFNBQUE7SUFDQSxnQkFBQTtFQzBITjtFRHhISTtJQUNFLGtCQUFBO0lBQ0EsUUFBQTtJQUNBLFNBQUE7SUFDQSxnQkFBQTtFQzBITjtFRHhISTtJQUNFLGtCQUFBO0lBQ0EsUUFBQTtJQUNBLFFBQUE7SUFDQSxZQUFBO0lBQ0EsZ0JBQUE7SUFDQSxlQUFBO0VDMEhOO0VEeEhJO0lBQ0Usa0JBQUE7SUFDQSxRQUFBO0lBQ0EsVUFBQTtJQUNBLGdCQUFBO0VDMEhOO0VEdkhFO0lBQ0UsY0FBQTtFQ3lISjtFRHhISTtJQUNFLFlBQUE7SUFDQSxjQUFBO0lBQ0Esa0JBQUE7SUFDQSxPQUFBO0lBQ0EsVUFBQTtJQUNBLDRCQUFBO0lBQUEsb0JBQUE7RUMwSE47RUR6SE07SUFDRSxtQ0FBQTtRQUFBLCtCQUFBO1lBQUEsMkJBQUE7RUMySFI7RUR4SEk7SUFDRSxjQUFBO0lBQ0EsWUFBQTtJQUNBLGNBQUE7SUFDQSxrQkFBQTtJQUNBLE9BQUE7SUFDQSxVQUFBO0lBQ0EsNEJBQUE7SUFBQSxvQkFBQTtFQzBITjtFRHpITTtJQUNFLG1DQUFBO1FBQUEsK0JBQUE7WUFBQSwyQkFBQTtFQzJIUjtFRHhISTtJQUNFLGNBQUE7SUFDQSxZQUFBO0VDMEhOO0VEeEhJO0lBQ0UsYUFBQTtFQzBITjtFRHhISTtJQUNFLGFBQUE7RUMwSE47RUR4SEk7SUFDRSxVQUFBO0lBQ0EsY0FBQTtJQUNBLGtCQUFBO0lBQ0EsU0FBQTtJQUNBLFNBQUE7RUMwSE47RUR4SEk7SUFDRSxnQkFBQTtFQzBITjtFRHhISTtJQUNFLGdCQUFBO0VDMEhOO0VEeEhJO0lBQ0UsVUFBQTtJQUNBLGtCQUFBO0lBQ0EsVUFBQTtFQzBITjtFRHpITTtJQUNFLFNBQUE7RUMySFI7RUR6SE07SUFDRSxTQUFBO0VDMkhSO0VEeEhJO0lBQ0UsVUFBQTtJQUNBLFdBQUE7SUFDQSxrQkFBQTtJQUNBLFVBQUE7SUFDQSxzQkFBQTtJQUFBLDZCQUFBO09BQUEsbUJBQUE7UUFBQSxtQkFBQTtZQUFBLHFCQUFBO0lBQ0Esa0JBQUE7RUMwSE47RUR6SE07SUFDRSxZQUFBO0VDMkhSO0VEekhNO0lBQ0UsVUFBQTtJQUNBLFdBQUE7SUFDQSxrQkFBQTtJQUNBLFVBQUE7SUFDQSxTQUFBO0VDMkhSO0VEekhNO0lBQ0UsWUFBQTtFQzJIUjtFRHhISTtJQUNFLFVBQUE7SUFDQSxnQkFBQTtJQUNBLGtCQUFBO0lBQ0EsVUFBQTtFQzBITjtFRHJITTtJQUNFLHlCQUFBO1FBQUEscUJBQUE7WUFBQSxpQkFBQTtFQ3VIUjtFRHJITTtJQUNFLFVBQUE7RUN1SFI7RURoSEU7SUFDRSxrQkFBQTtFQ2tISjtFRGpISTtJQUNFLDZCQUFBO0lBQ0EsVUFBQTtJQUNBLGtCQUFBO0lBQ0EsTUFBQTtJQUNBLFFBQUE7RUNtSE47RURoSEU7SUFDRSxrQkFBQTtJQUNBLFdBQUE7RUNrSEo7RURqSEk7SUFDRSxZQUFBO0lBQ0Esa0JBQUE7SUFDQSxVQUFBO0lBQ0EsU0FBQTtJQUNBLFFBQUE7SUFDQSx3Q0FBQTtRQUFBLG9DQUFBO1lBQUEsZ0NBQUE7RUNtSE47RURqSEk7SUFDRSxpQkFBQTtJQUNBLGtCQUFBO0lBRUEsV0FBQTtFQ2tITjtFRGhISTtJQUNFLGtCQUFBO0VDa0hOO0VEaEhJO0lBQ0UsZ0JBQUE7RUNrSE47RURoSEk7SUFDRSxrQkFBQTtJQUNBLGdCQUFBO0VDa0hOO0VEakhNO0lBQ0UsdUJBQUE7SUFBQSw4QkFBQTtPQUFBLG9CQUFBO1FBQUEsb0JBQUE7WUFBQSxzQkFBQTtJQUNBLFFBQUE7SUFDQSxVQUFBO0VDbUhSO0VEakhNO0lBQ0Usc0JBQUE7SUFBQSw2QkFBQTtPQUFBLG1CQUFBO1FBQUEsbUJBQUE7WUFBQSxxQkFBQTtJQUNBLFFBQUE7SUFDQSxRQUFBO0VDbUhSO0VEaEhJO0lBQ0Usa0JBQUE7SUFDQSxnQkFBQTtFQ2tITjtFRGpITTtJQUNFLGlCQUFBO0lBQ0EsUUFBQTtJQUNBLFVBQUE7RUNtSFI7RURqSE07SUFDRSxnQkFBQTtJQUNBLFFBQUE7SUFDQSxRQUFBO0VDbUhSO0VEL0dFO0lBQ0Usa0JBQUE7SUFDQSxrQkFBQTtJQUNBLGlCQUFBO0VDaUhKO0VEL0dJO0lBQ0UsVUFBQTtJQUNBLGtCQUFBO0lBQ0EsTUFBQTtJQUNBLFFBQUE7RUNpSE47RUQ5R0U7SUFDRSxrQkFBQTtFQ2dISjtFRC9HSTtJQUNFLHlCQUFBO0VDaUhOO0VEL0dJO0lBQ0Usb0JBQUE7SUFBQSxxQkFBQTtJQUFBLGlCQUFBO0lBQUEsb0JBQUE7SUFBQSxhQUFBO0lBQ0EsdUJBQUE7SUFBQSw4QkFBQTtPQUFBLG9CQUFBO1FBQUEsb0JBQUE7WUFBQSxzQkFBQTtFQ2lITjtFRC9HSTtJQUNFLFVBQUE7RUNpSE47RUQvR0k7SUFDRSxjQUFBO0lBdmpDTixlQUFBO0lBQ0EsY0FBQTtJQUNBLGNBQUE7SUF1akNNLFVBQUE7RUNtSE47RURoSE07SUFDRSxlQUFBO0VDa0hSO0VEaEhNO0lBQ0UsZUFBQTtFQ2tIUjtFRDlHRTtJQUNFLHlCQUFBO0VDZ0hKO0VEL0dJO0lBQ0UsZ0JBQUE7SUFDQSwwQkFBQTtFQ2lITjtFRC9HSTtJQUNFLG9CQUFBO0lBQUEscUJBQUE7SUFBQSxpQkFBQTtJQUFBLG9CQUFBO0lBQUEsYUFBQTtJQUNBLDhCQUFBO0lBQUEsOEJBQUE7SUFBQSw4QkFBQTtPQUFBLDJCQUFBO09BQUEsMkJBQUE7UUFBQSwwQkFBQTtZQUFBLHNCQUFBO0lBQ0EsYUFBQTtFQ2lITjtFRC9HSTtJQUNFLGdCQUFBO0lBQ0EsaUJBQUE7RUNpSE47RUQvR0k7SUFDRSxrQkFBQTtJQUNBLFVBQUE7SUFDQSxZQUFBO0VDaUhOO0VEL0dJO0lBQ0UsZ0JBQUE7RUNpSE47RUQvR0k7O0lBRUUsVUFBQTtFQ2lITjtFRC9HSTs7SUFFRSxTQUFBO0VDaUhOO0VEOUdFO0lBQ0Usa0JBQUE7SUFDQSxVQUFBO0VDZ0hKO0VEL0dJO0lBdm1DSixlQUFBO0lBQ0EsY0FBQTtJQUNBLGNBQUE7RUN5dENBO0VEakhJO0lBQ0UsYUFBQTtFQ21ITjtFRGpISTtJQUNFLGdCQUFBO0VDbUhOO0VEakhJO0lBQ0UsZUFBQTtFQ21ITjtFRGpISTtJQUNFLGVBQUE7RUNtSE47RURqSEk7SUFDRSxlQUFBO0lBQ0Esa0JBQUE7SUFDQSxPQUFBO0lBQ0EsVUFBQTtFQ21ITjtFRGpISTtJQUNFLGtCQUFBO0lBQ0EsUUFBQTtFQ21ITjtFRGpISTtJQUNFLGtCQUFBO0lBQ0EsUUFBQTtJQUNBLFFBQUE7RUNtSE47QUFDRjtBRC9HRTtFQUNFO0lBQ0UsaUJBQUE7RUNpSEo7RURoSEk7SUFDRSxVQUFBO0lBQ0EsUUFBQTtFQ2tITjtBQUNGO0FEL0dFO0VBRUk7SUFDRSxRQUFBO0lBQ0EsWUFBQTtJQUNBLGVBQUE7RUNnSE47RUQ5R0k7SUFDRSxnQkFBQTtFQ2dITjtFRDdHRTtJQUNFLHVDQUFBO0lBQ0EsNEJBQUE7SUFDQSx3QkFBQTtJQUNBLHNCQUFBO0VDK0dKO0VENUdJO0lBQ0UsWUFBQTtFQzhHTjtFRDVHSTtJQUNFLGVBQUE7SUFDQSxRQUFBO0lBQ0EsUUFBQTtFQzhHTjtFRDVHSTtJQUNFLGVBQUE7SUFDQSxTQUFBO0lBQ0EsUUFBQTtFQzhHTjtFRDVHSTtJQUNFLGVBQUE7SUFDQSxTQUFBO0lBQ0EsUUFBQTtFQzhHTjtFRHpHSTtJQUNFLG1CQUFBO0VDMkdOO0VEMUdNO0lBQ0UsU0FBQTtFQzRHUjtFRHZHTTtJQUNFLFNBQUE7RUN5R1I7RURwR0k7SUFDRSxXQUFBO0VDc0dOO0VEbkdFO0lBQ0UsaUJBQUE7RUNxR0o7RURwR0k7SUFDRSxVQUFBO0VDc0dOO0VEakdJO0lBQ0UsZ0JBQUE7RUNtR047RURqR0k7SUFDRSxlQUFBO0VDbUdOO0VEakdJO0lBQ0UsZUFBQTtFQ21HTjtFRGpHSTtJQUNFLGVBQUE7SUFDQSxrQkFBQTtJQUNBLE9BQUE7SUFDQSxVQUFBO0VDbUdOO0VEakdJO0lBQ0Usa0JBQUE7SUFDQSxRQUFBO0VDbUdOO0VEakdJO0lBQ0Usa0JBQUE7SUFDQSxRQUFBO0lBQ0EsUUFBQTtFQ21HTjtBQUNGOztBRDdGQTtFQUNFO0lBQ0UsVUFBQTtJQUNBLDJCQUFBO1lBQUEsbUJBQUE7RUNnR0Y7RUQ5RkE7SUFDRSxZQUFBO0lBQ0EsNkJBQUE7WUFBQSxxQkFBQTtFQ2dHRjtFRDlGQTtJQUNFLFVBQUE7RUNnR0Y7RUQ5RkE7SUFDRSwrQkFBQTtZQUFBLHVCQUFBO0lBQ0EsNkJBQUE7WUFBQSxxQkFBQTtFQ2dHRjtFRDlGQTtJQUNFLDZCQUFBO1lBQUEscUJBQUE7RUNnR0Y7RUQ5RkE7SUFDRSxZQUFBO0VDZ0dGO0VEOUZBO0lBQ0UsVUFBQTtJQUNBLDJCQUFBO1lBQUEsbUJBQUE7RUNnR0Y7QUFDRjs7QUR6SEE7RUFDRTtJQUNFLFVBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0VDZ0dGO0VEOUZBO0lBQ0UsWUFBQTtJQUNBLDZCQUFBO1lBQUEscUJBQUE7RUNnR0Y7RUQ5RkE7SUFDRSxVQUFBO0VDZ0dGO0VEOUZBO0lBQ0UsK0JBQUE7WUFBQSx1QkFBQTtJQUNBLDZCQUFBO1lBQUEscUJBQUE7RUNnR0Y7RUQ5RkE7SUFDRSw2QkFBQTtZQUFBLHFCQUFBO0VDZ0dGO0VEOUZBO0lBQ0UsWUFBQTtFQ2dHRjtFRDlGQTtJQUNFLFVBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0VDZ0dGO0FBQ0Y7QUQ3RkE7RUFDQztJQUNDLDJDQUFBO1lBQUEsbUNBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0lBQ0EsdUNBQUE7WUFBQSwrQkFBQTtFQytGQTtFRDVGRDtJQUNDLDBDQUFBO1lBQUEsa0NBQUE7SUFDQSw4QkFBQTtZQUFBLHNCQUFBO0VDOEZBO0VEM0ZEO0lBQ0MsMkNBQUE7WUFBQSxtQ0FBQTtJQUNBLDhCQUFBO1lBQUEsc0JBQUE7RUM2RkE7RUQxRkQ7SUFDQywwQ0FBQTtZQUFBLGtDQUFBO0lBQ0EsOEJBQUE7WUFBQSxzQkFBQTtFQzRGQTtFRHpGRDtJQUNDLDJDQUFBO1lBQUEsbUNBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0VDMkZBO0FBQ0Y7QURwSEE7RUFDQztJQUNDLDJDQUFBO1lBQUEsbUNBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0lBQ0EsdUNBQUE7WUFBQSwrQkFBQTtFQytGQTtFRDVGRDtJQUNDLDBDQUFBO1lBQUEsa0NBQUE7SUFDQSw4QkFBQTtZQUFBLHNCQUFBO0VDOEZBO0VEM0ZEO0lBQ0MsMkNBQUE7WUFBQSxtQ0FBQTtJQUNBLDhCQUFBO1lBQUEsc0JBQUE7RUM2RkE7RUQxRkQ7SUFDQywwQ0FBQTtZQUFBLGtDQUFBO0lBQ0EsOEJBQUE7WUFBQSxzQkFBQTtFQzRGQTtFRHpGRDtJQUNDLDJDQUFBO1lBQUEsbUNBQUE7SUFDQSwyQkFBQTtZQUFBLG1CQUFBO0VDMkZBO0FBQ0Y7QUR4RkE7RUFDRTtJQUNFLFVBQUE7SUFDQSxvQ0FBQTtZQUFBLDRCQUFBO0VDMEZGO0VEdkZBO0lBQ0UsVUFBQTtJQUNBLGdDQUFBO1lBQUEsd0JBQUE7RUN5RkY7QUFDRjtBRGxHQTtFQUNFO0lBQ0UsVUFBQTtJQUNBLG9DQUFBO1lBQUEsNEJBQUE7RUMwRkY7RUR2RkE7SUFDRSxVQUFBO0lBQ0EsZ0NBQUE7WUFBQSx3QkFBQTtFQ3lGRjtBQUNGO0FEdEZBO0VBQ0U7SUFDRSxZQUFBO0lBQ0EscUNBQUE7WUFBQSw2QkFBQTtFQ3dGRjtFRHJGQTtJQUNFLFVBQUE7SUFDQSxnQ0FBQTtZQUFBLHdCQUFBO0VDdUZGO0FBQ0Y7QURoR0E7RUFDRTtJQUNFLFlBQUE7SUFDQSxxQ0FBQTtZQUFBLDZCQUFBO0VDd0ZGO0VEckZBO0lBQ0UsVUFBQTtJQUNBLGdDQUFBO1lBQUEsd0JBQUE7RUN1RkY7QUFDRjtBRHBGQTtFQUNFO0lBQ0UsWUFBQTtJQUNBLG9DQUFBO1lBQUEsNEJBQUE7RUNzRkY7RURuRkE7SUFDRSxVQUFBO0lBQ0EsZ0NBQUE7WUFBQSx3QkFBQTtFQ3FGRjtBQUNGO0FEOUZBO0VBQ0U7SUFDRSxZQUFBO0lBQ0Esb0NBQUE7WUFBQSw0QkFBQTtFQ3NGRjtFRG5GQTtJQUNFLFVBQUE7SUFDQSxnQ0FBQTtZQUFBLHdCQUFBO0VDcUZGO0FBQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
